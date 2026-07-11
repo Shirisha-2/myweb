@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("Git Checkout"){
       steps{
-        git credentialsId: 'javahome10', url: 'https://github.com/Shirisha-2/myweb.git'
+          git credentialsId: 'javahome10', url: 'https://github.com/Shirisha-2/myweb.git'
       }
 
   stages{
